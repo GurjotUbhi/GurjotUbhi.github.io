@@ -1,0 +1,259 @@
+body {
+  font-family: "Cantarell", sans-serif;
+  color: #ddd6d0;;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  background: #37342f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  margin: 0 0 15px;
+  line-height: 1.2;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  width: 960px;
+}
+header {
+  background-image: url(../img/Main-Background.png);
+  background-size: cover;
+  background-position: center bottom;
+  padding-bottom: 250px;
+}
+header.contact {
+  background-image: url(../img/Contact-Us-Main-BG.png);
+  height: 1605px;
+}
+header .navigation {
+  background-image: url(../img/header-bg.png);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 10px 50px;
+}
+
+header .navigation ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header .navigation ul li a {
+  display: inline-block;
+  color: #ddd6d0;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+}
+
+header .navigation ul li a:hover {
+  color: #ddd6d0;
+  text-decoration: underline;
+}
+.call-to-action {
+  background-image: url(../img/main-bg.png);
+  padding: 50px 50px;
+  text-align: center;
+  margin: 250px 200px 0px 200px;
+  height: 400px;
+  width: 550px;
+}
+.contact-us-form {
+  background-image: url(../img/main-bg.png);
+  padding: 50px 50px;
+  text-align: center;
+  margin: 100px 200px;
+  height: 400px;
+  width: 550px;
+}
+.call-to-action h2,
+.contact-us-form h2 {
+  font-size: 72px;
+  color: #ff7f11;
+}
+
+.call-to-action p {
+  font-family: 'Cantarell', sans-serif;
+  text-align: left;
+  font-size: 24px;
+  color: #ddd6d0;
+  line-height: 1.25;
+  margin-bottom: 40px;
+}
+.contact-us-form p {
+  text-align: left;
+}
+.contact-us-form p.big {
+  font-size: 24px;
+}
+
+.primary-button {
+  font-family: "Fjalla One", sans-serif;
+  padding: 18px 31px;
+  background-color: #ff7f11;
+  font-size: 30px;
+  color: #dfd1c8;
+  border-radius: 8px;
+}
+
+.primary-button:hover {
+  color:#faefef;
+  text-decoration: underline;
+}
+
+.our-story {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #2d2824;
+  margin-top: 100px;
+  height: 480px;
+}
+
+.our-story .text,
+.our-story .image {
+  width: 50%;
+}
+
+.our-story .text {
+  color: #faefef;
+  padding: 50px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.our-story .text h2 {
+  font-family: "Fjalla One", sans-serif;
+  color: #ff7f11;
+  font-size: 48px;
+  text-align: center;
+}
+.our-story .text p{
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ddd6d0;
+}
+.find-us-now {
+  background-image: url(../img/Find-Us-BG.png);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Cantarell', sans-serif;
+  padding: 50px 50px 20px 50px;
+  margin: 100px 0px;
+}
+
+.find-us-now h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 48px;
+  color: #ff7f11;
+  text-align: center;
+}
+
+.find-us-now p a {
+  font-family: 'Cantarell', sans-serif;
+  color: #ff7f11;
+  text-decoration: underline;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.locations .individual-location {
+  flex: 0 0 auto;
+  width: 33.3333%;
+  text-align: center;
+  margin-top: 50px;
+  padding: 0px 20px;
+}
+
+.locations .individual-location h4 {
+  font-family: 'Cantarell', sans-serif;
+  color: #ddd6d0;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+footer {
+  background-color: #4e473f;
+  padding: 50px 60px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer h4 {
+  font-family: 'Cantarell', sans-serif;
+  color: #ddd6d0;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+footer .social-media-links a {
+  display: inline-block;
+  padding: 10px;
+}
+
+footer .social-media-links {
+  margin-bottom: 20px;
+}
+
+.contact-us-form{
+  background-image: url(../img/Contact-Us-BG.png) ;
+  height: 1307px;
+  width: 552px;
+  line-height: 1.25;
+}
+.contact-us-form form {
+  padding: 40px 0px 20px;
+}
+
+.contact-us-form form .form-groups {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.contact-us-form form .form-groups label {
+  display: block;
+  color: #2d2824;
+  font-size: 18px;
+  color: #ff7f11;
+  margin-bottom: 5px;
+}
+
+.contact-us-form form .form-groups input,
+.contact-us-form form .form-groups textarea {
+  width: 100%;
+  background-color: #faefef;
+  border: 1px solid #000000;
+  min-height: 50px;
+}
+.contact-us-form form .form-groups input[type="checkbox"] {
+  width: auto;
+  min-height: auto;
+}
+
+.contact-us-form form .form-groups.checkbox label {
+  color: #ddd6d0;
+  display: inline-block;
+}
+
+.contact-us-form .primary-button {
+  padding: 15px 60px;
+  font-size: 24px;
+  margin-top: 20px;
+}
